@@ -1,0 +1,234 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*/*{
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+}
+body { 
+    background: lightblue url("img_tree.gif") no-repeat fixed center; 
+  }
+img{
+    width: 430px;
+    height: 400px;
+    padding: 50px;
+}
+.row {
+    float: left;
+    width: 100%;
+}
+.mb {
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.center{
+    text-align: center;
+}
+.boxtitle{
+    color: #333;
+    background-color: #eee;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+.boxcontent{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left:1px #ccc solid ;
+    border-right:1px #ccc solid ;
+    border-bottom: 1px #ccc solid;
+    min-height: 200px;
+    padding: 20px;
+}
+.formtaikhoan{
+    line-height: 150%;
+    background-color: #362f2f;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="pass"],
+.formcontent input[type="text"]{
+    width: 30%;
+    padding: 5px 10px;
+    border: 1px #ccc solid;
+}
+.formtaikhoan input[type="submit"]
+{
+    width: 20%;
+    padding: 5px 10px;
+    border: 1px #ccc solid;
+    background-color: white;
+}
+.formtaikhoan input[type="submit"]:hover{ 
+    background-color: #ccc;  
+}
+.formtaikhoan li a{
+    color: blue;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: rgb(233, 15, 15);
+    text-decoration: underline;
+}
+.banner img{
+    height: 100px;
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 100px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.boxsp .img{
+    min-height: 230px;
+    text-align: center;
+}
+
+.img img{
+    height: 220px;
+}
+#logo{
+        width: 50px;
+        height: 50px;
+}
+.footer{
+    text-align: center;
+    color: rgb(76, 60, 60);
+    /*background-color:#3b5249;*/
+    
+}
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: 100%;
+}
+#header {
+    background-color: rgb(76, 60, 60);
+    width: 100%;
+    padding:20px;
+    margin-top:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.menu{
+    background-color: white;
+    color: #ccc;
+    border-radius: 5px;
+}
+#menu {
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:0px 23px;
+}
+
+#menu .item a {
+    color:rgb(167, 126, 126);
+    text-decoration: none;
+}
+
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+}
+
+#banner {
+    width: auto;
+    margin-top:50px;
+    display: flex;
+    padding:0px 133px;
+    position:relative;
+}
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+
+#banner  .box-left h2 {
+    font-size:48px;
+    margin-top:75px;
+    color:rgb(76, 60, 60);
+}
+
+#banner .box-left p {
+    color:#465e2d;
+}
+
+#banner .box-left button {
+    width: 191px;
+    height: 40px;
+    margin-top:41px;
+    background:#5f4d4d;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+}
+
+#banner .box-left button:hover {
+    background:rgba(168, 133, 172, 0.87);
+}
+
+#banner .box-right {
+    padding-left:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .box-right img {
+    margin:0px 10px;
+    animation :animation 3s infinite linear; 
+}
+
+
+#banner .box-right img:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+#banner .box-right img:nth-child(2)
+{
+    
+    animation-delay: 1s;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.formlist table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.formlist table th{
+    padding: 20px;
+    background-color: white;
+}
+
+.formlist table td{
+    padding: 10px 20px;
+    border: 1px white solid;
+}
+
+
+
+
